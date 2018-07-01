@@ -32,6 +32,7 @@ GEM
       rack
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
+    rake (12.3.1)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -74,6 +75,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   httparty
+  rake
   rspec
   simplecov
   simplecov-console
