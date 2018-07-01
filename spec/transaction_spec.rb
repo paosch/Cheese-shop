@@ -3,6 +3,7 @@ require 'spec_helper'
 require 'webmock/rspec'
 
 describe Transaction do
+  let(:subject) { Transaction.new }
   describe '#geteuros' do
     it 'makes successful call to API' do
       uri = URI('https://openexchangerates.org/')
@@ -12,10 +13,9 @@ describe Transaction do
   end
   describe '#calculate' do
     it 'calculates how much cheese the customer can buy with £19.99' do
-      transaction = Transaction.new
       WebMock.allow_net_connect!
-      allow(transaction).to receive(:geteuros) { 2 }
-      expect(transaction.calculate).to eq 12
+      allow(subject).to receive(:geteuros) { 2 }
+      expect(subject.calculate).to eq 12
     end
   end
 end
