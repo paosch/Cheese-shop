@@ -4,6 +4,8 @@ require 'httparty'
 
 class Transaction
   attr_accessor :euros
+  POUNDS_PAID = 19.99
+  EACH_BLOCK = 3.24
   include HTTParty
   base_uri 'https://openexchangerates.org/api'
 
@@ -13,6 +15,6 @@ class Transaction
   end
 
   def calculate
-    ((geteuros * 19.99) / 3.24).to_i
+    ((geteuros * POUNDS_PAID) / EACH_BLOCK).to_i
   end
 end
