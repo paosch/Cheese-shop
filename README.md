@@ -40,7 +40,7 @@ I want to see a message on the shop's website.
 
 ### Website screenshot
 The application is hosted on Heroku: https://nedscheeseemporium.herokuapp.com/
-![screen shot 2018-07-01 at 17 19 24](https://user-images.githubusercontent.com/33669463/42136434-17bbe438-7d53-11e8-8463-35792c439e43.png)
+![screen shot 2018-07-01 at 19 01 12](https://user-images.githubusercontent.com/33669463/42137255-2935aa4c-7d61-11e8-9b21-9575cdedaeff.png)
 
 ### IRB snippet
 ![screen shot 2018-07-01 at 17 36 50](https://user-images.githubusercontent.com/33669463/42136548-8f93e2ba-7d55-11e8-8520-4bf11e48ea8b.png)
