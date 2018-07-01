@@ -1,4 +1,5 @@
 # Ned Ned's Cheese Emporium
+[![Build Status](https://travis-ci.com/paosch/Ned-Ned-s-Cheese-Emporium-.svg?branch=master)](https://travis-ci.com/paosch/Ned-Ned-s-Cheese-Emporium-)
 
 A Sinatra app for an online artisan cheese shop called Ned Ned's Cheese Emporium. The customers are UK-based and pay £19.99 per order.
 
