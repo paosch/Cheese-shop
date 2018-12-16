@@ -9,6 +9,6 @@ gem 'sinatra'
 gem 'webmock'
 
 group :test do
-  gem 'rake'
+  gem "rack", ">= 2.0.6"
   gem 'rspec'
 end
